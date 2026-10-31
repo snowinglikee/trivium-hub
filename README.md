@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/logo.png" alt="Trivium Hub" width="96">
+  <img src="app/logo.png" alt="Trivium Hub" width="320">
 </p>
 
 <h1 align="center">Trivium Hub</h1>
