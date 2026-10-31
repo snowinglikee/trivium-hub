@@ -95,7 +95,7 @@ Sony nem com os autores dos emuladores.
 
 ## Uso de IA
 
-Este projeto foi feito principalmente com ajuda de IA (Claude Code).
+Este projeto foi feito principalmente com ajuda de IA.
 
 ---
 
