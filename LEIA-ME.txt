@@ -1,0 +1,238 @@
+Trivium Hub - PS2 + PS3 + PS4 em um so lugar
+==============================================
+
+Seus jogos de PS2, PS3 e PS4 em um so launcher: extraia, abra e jogue. Os emuladores ja vem
+dentro, cada jogo abre configurado e as correcoes da comunidade ligam sozinhas (60 FPS em cerca
+de 700 jogos de PS2, God of War III e Bloodborne otimizados). Nada de baixar um emulador, um port
+ou um tutorial diferente para cada jogo.
+
+PACOTE UNICO
+  Trivium Hub.exe    -> o programa (de dois cliques nele)
+  app\  (pasta oculta) -> o launcher e os emuladores embutidos (PCSX2, RPCS3, shadPS4)
+  A pasta inteira e portatil: pode mover ou copiar para outro PC/HD externo.
+  Mantenha a pasta "app" ao lado do Trivium Hub.exe.
+  Se o Windows avisar "O Windows protegeu o computador", clique em Mais informacoes > Executar assim mesmo
+  (o programa nao tem assinatura digital paga).
+  O Trivium Hub.exe roda o launcher dentro dele mesmo (nao abre janelas escondidas nem muda nada
+  no Windows) e nunca pede administrador.
+  Creditos e licencas dos emuladores (todos de codigo aberto): app\licencas\CREDITOS.txt
+
+COMO USAR
+  Na primeira vez abre a tela "Primeiros passos" com tudo o que falta (emuladores, BIOS do PS2,
+  firmware do PS3 e jogos), cada um com o seu botao. Para abrir de novo: botao "..." (canto de
+  cima, a direita) > "Primeiros passos", ou tecla F1.
+  Barra de cima: "Adicionar" (jogos ou pasta), "Modo TV" e o botao "..." com Emuladores,
+  Conquistas, Saves, Primeiros passos e Sobre. Jogar, Configurar e Remover ficam no painel do jogo
+  (a direita) e no botao direito em cima da capa.
+1. Abra Trivium Hub.exe.
+2. Os emuladores ja vem instalados. Para atualizar: "..." > "Emuladores" > "Instalar / atualizar todos"
+   (baixa das paginas oficiais no GitHub; saves, configs e jogos instalados sao mantidos).
+3. Uma vez so, na janela "Emuladores":
+   - "BIOS do PS2...": escolha a BIOS copiada do seu PS2
+   - "Firmware do PS3...": instala o PS3UPDAT.PUP (gratuito no site da Sony)
+4. Arraste seus jogos (ou a pasta com todos eles) para a janela.
+5. Duplo clique no jogo: abre a tela de CONFIGURACOES DO JOGO, ajuste e clique em JOGAR.
+
+NA BIBLIOTECA
+  - Clique numa capa: o painel da direita mostra capa grande, tempo jogado, ultima vez e JOGAR.
+  - "Continuar jogando" (em cima): os ultimos jogos abertos. Duplo clique abre direto.
+  - Remover tira o jogo so da lista (o arquivo fica). Aparece "Desfazer" por alguns segundos.
+  - Botao direito na capa: Jogar, Configurar, Abrir pasta do jogo, Favorito, Trocar capa
+    (qualquer imagem do PC), Voltar a capa original, Renomear e Remover.
+  - Favoritos: estrela no canto da capa grande, botao direito > Adicionar aos favoritos,
+    Ctrl+D ou Quadrado/X no controle. Aparecem na aba "Favoritos" com uma estrela na capa.
+  - "Ordenar" (ao lado das abas): por nome, jogados recentemente, mais tempo jogado ou
+    adicionados por ultimo. A escolha fica salva.
+  - Controle (Xbox, ou de PlayStation pelo Steam/DS4Windows): direcional/analogico navega,
+    A (X no PS) ou Start joga, Y (Triangulo) configura, X (Quadrado) favorita, B (Bolinha) limpa a busca,
+    LB/RB trocam a aba.
+  - Teclado: setas navegam, Enter joga, F2 configura, Delete remove, Ctrl+D favorita, Ctrl+F busca,
+    Ctrl+1/2/3/4/5 = abas Todos/Favoritos/PS2/PS3/PS4, Ctrl+6 = Conquistas, Esc limpa a busca,
+    F1 primeiros passos, F11 modo TV.
+  - "Capas" (barra de baixo, na grade): Pequeno, Medio ou Grande. Tambem Ctrl + rodinha do mouse
+    em cima das capas. A escolha fica salva.
+  - A janela volta com o mesmo tamanho e posicao da ultima vez.
+  - Jogos adicionados nos ultimos 7 dias e ainda nao jogados tem a etiqueta "NOVO" na capa.
+  - O fundo da biblioteca mostra a arte do jogo escolhido: no PS4 e no PS3 a imagem de fundo do
+    proprio jogo (pic1.png), no PS2 a capa desfocada.
+  - Passe o mouse em cima dos botoes para ver o que fazem e o atalho de cada um.
+
+MODO TV (botao "Modo TV" em cima, F11 ou Back/Select/Share no controle)
+  - Tela cheia para jogar no sofa: fileira de capas grandes e o fundo com a capa do jogo.
+  - Controle: esquerda/direita escolhe, A (X no PS) joga, Y (Triangulo) configura, X (Quadrado)
+    favorito, LB/RB troca o console, B (Bolinha) ou Back sai.
+  - Teclado: setas, Enter joga, F2 configura, F favorito, Q/E ou Tab troca o console, Esc sai.
+  - Sons de navegacao: liga/desliga no alto-falante do canto ou com a tecla S.
+  - Depois que o jogo fecha, volta para o modo TV.
+
+SAVES (botao "..." em cima > "Saves")
+  - "Fazer backup agora": um .zip com os saves do PS2 (memory cards e save states), PS3 e PS4,
+    os trofeus e a biblioteca (tempo jogado, favoritos e capas escolhidas). Serve para levar
+    para outro PC.
+  - "Restaurar backup": volta os saves de um .zip. Antes, os saves de agora sao guardados.
+  - Backup automatico depois de jogar, um por dia, em app\cache\backups (fica com os 5 ultimos).
+
+SOBRE, DIAGNOSTICO E ATUALIZACOES (botao "..." em cima > "Sobre e creditos")
+  - Versao do Trivium Hub, versao de cada emulador, licencas e creditos (pasta app\licencas).
+  - "Diagnostico": confere o PC (processador, placa de video, Vulkan, espaco), os emuladores,
+    BIOS e firmware. "Copiar" leva o relatorio para colar quando pedir ajuda
+    (sem senhas e sem o seu nome de usuario).
+  - "Procurar atualizacao": baixa a versao nova do Trivium Hub (jogos, saves e configuracoes
+    ficam como estao). O launcher tambem procura sozinho uma vez por dia.
+  - Idioma / Language: Portugues ou English (Automatico segue o idioma do Windows).
+  - Se o launcher fechar por erro, os detalhes ficam em app\cache\erros.log.
+
+TELA DE CONFIGURACOES DO JOGO
+  - Cada jogo guarda as proprias configuracoes.
+  - Predefinicoes: "Desempenho maximo (PC fraco)", "Equilibrado", "Qualidade (PC forte)"
+    ou ajuste item por item (vira "Personalizado").
+  - PS2: renderizador, resolucao, velocidade da CPU do PS2 (EE cycle rate), MTVU,
+    CD rapido, widescreen, VSync, mostrar FPS.
+  - PS2 "60 FPS": aparece sozinha nos jogos que tem patch de 60 FPS da comunidade (cerca de 700
+    jogos, ex: Midnight Club 3, GTA San Andreas, Burnout 3, Kingdom Hearts, Silent Hill 2) e ja
+    vem ligada. O patch vale so para a versao certa do jogo (ex: Midnight Club 3 americano v1.0
+    tem, a v2.0 nao). Alguns patches pedem a CPU do PS2 mais rapida (180% ou 300%): o launcher
+    faz isso sozinho enquanto o jogo roda e a tela avisa. Se o jogo ficar lento, baixe a
+    resolucao; se ficar estranho, desmarque "60 FPS". Os patches vem com o PCSX2 e chegam novos
+    quando ele e atualizado. Um patch .pnach colocado em app\emuladores\pcsx2\patches tambem vale.
+  - Filtro anisotropico (PS2 e PS3): deixa texturas do chao e paredes mais nitidas de longe. Vem
+    desligado. O shadPS4 nao tem essa opcao: nos jogos de PS4 o filtro e o que o proprio jogo define.
+  - PS2 "Jogar online": vem vazio, ou seja, desligado. Os servidores originais da Sony foram
+    desligados, entao digite em cada jogo o DNS de um servidor da comunidade, sem ligacao com a Sony.
+    Exemplos: 45.7.228.197 (PS2Online, ps2online.com) e 67.222.156.250 (PS Rewired, psrewired.com).
+    A lista de jogos, regiao e DNS fica em ps2online.com/list. Muitos jogos ainda exigem uma versao
+    certa do jogo e uma correcao de DNAS que o launcher nao faz sozinho. Na primeira vez, crie
+    dentro do jogo uma configuracao de rede e salve no cartao de memoria.
+    Midnight Club 3: salve um perfil para o Networking aparecer no menu e crie a conta com a
+    senha PS2T.
+  - PS3: renderizador, escala de resolucao, SPU Block Size, limite de FPS,
+    Write Color Buffers, VSync, mostrar FPS.
+    (Vale para jogos em pasta e PKG. ISO de PS3 usa a configuracao global do RPCS3.
+     Substitui a configuracao personalizada desse jogo feita no proprio RPCS3.)
+  - PS4 (shadPS4): modo de tela cheia, VSync, idioma do jogo, pular videos, FSR, modo PS4 Pro,
+    mostrar FPS. Os ajustes tecnicos (memoria extra, vblank, leituras da GPU, cache de shaders)
+    o launcher faz sozinho pela predefinicao e pelas correcoes conhecidas de cada jogo.
+  - Jogos com correcao conhecida mostram tambem "Correcoes da comunidade para este jogo"
+    (liga/desliga todas de uma vez) e, se o jogo tiver patch, "120 FPS".
+  - PS4: o painel do jogo mostra a versao (ex: v01.02). Se os patches do jogo forem para outra
+    versao, a tela de configuracoes avisa e explica onde colocar o update (pasta "<jogo>-UPDATE").
+  - God of War III Remastered: "Correcoes da comunidade" liga, de uma vez:
+      * o shadPS4 eltutz de cuesta4, feito para esse jogo, que compila os shaders em segundo
+        plano (quase sem travadas). Fica na mesma pasta do shadPS4 e usa os mesmos saves.
+        Precisa de processador com AVX2 e foi compilado para Ryzen 5000;
+      * o patch "Texture Corruption Fix" de cuesta4 (versao 01.02 do jogo) com +2 GB de memoria;
+      * Readback Linear Images e leituras da GPU em "Relaxado" (texturas quebradas).
+    "120 FPS" e o patch de kvicken; o launcher coloca o vblank em 120 sozinho.
+    E o mesmo conjunto que o SpartanPort usa. Se o jogo fechar na hora de abrir, desmarque
+    "Correcoes da comunidade". Ainda pode sobrar brilho exagerado em algumas fases.
+  - Bloodborne (versao 1.09): "Correcoes da comunidade" liga os mesmos patches de desempenho que o
+    Bloodborne PC (port de Supermedo) usa: Performance Patch, sem motion blur, sem sombras de luz
+    dinamica, sem aberracao cromatica, sem AA/DoF/SSAO, fisica de corpos mais leve e renders menores
+    (as correcoes para processador Intel ligam sozinhas so em Intel). Tambem usa o shadPS4 eltutz
+    e as leituras da GPU em "Relaxado", que corrigem os poligonos esticados enormes ("vertex
+    explosion") do Bloodborne no shadPS4 (custa um pouco de desempenho).
+    "60 FPS" liga o patch 60 FPS++ e "90 FPS" liga o 90 FPS++ (Kyo e yogesh1239; o launcher
+    coloca o vblank em 90 sozinho). So um de cada vez: marcar um desmarca o outro. Para 90 FPS
+    precisa de PC forte e monitor de 90 Hz ou mais. (O 120 FPS++ ficou de fora: fechava o jogo
+    ao entrar no mapa.) Instale o update 1.09 junto
+    (Adicionar > Instalar PKG de PS4).
+  - As opcoes valem so para aquele jogo (arquivo user\custom_configs\CUSAxxxxx.json do shadPS4).
+  - PS4 "Pular videos e intros": liga os patches da comunidade (repositorio oficial do shadPS4)
+    que pulam logos, intros e videos. Ex: God of War III = aperte X para pular qualquer video.
+    So existe para alguns jogos (Bloodborne, GoW III, Infamous, The Last Guardian, Persona,
+    Shadow of the Colossus, Metaphor...) e para a versao certa do jogo. Nos outros jogos,
+    tente o proprio botao do jogo (Options, Touchpad ou segurar X) durante a cutscene.
+    Os patches sao atualizados pelo "Instalar / atualizar todos".
+  - Conquistas Trivium: jogos de PS3, e de PS4 sem arquivo de trofeus, tem 10 conquistas
+    proprias na aba Conquistas (tempo jogado, 2 horas seguidas, dias diferentes e a Platina Trivium).
+    Ao ganhar uma, aparece um aviso animado com o nome dela e toca o som de trofeu. Elas nao
+    substituem os trofeus oficiais e nao usam nada da PSN nem do RetroAchievements.
+  - Trofeus do proprio jogo no PS4: sem a chave de trofeus do seu PS4, a aba mostra a quantidade
+    real e as imagens originais de cada trofeu, e marca o desbloqueio pelo log do shadPS4. Com
+    internet, o launcher busca tipo, nome e descricao na lista publica do PSNine e traduz pelo
+    MyMemory, uma vez por jogo. Os textos sao traducao automatica, nao os nomes oficiais.
+  - Tela cheia no PS4: o launcher usa sempre o modo sem borda, para o aviso aparecer sobre o jogo.
+  - Todos: saturacao, volume do jogo e tela cheia. Enquanto joga, o launcher sempre usa prioridade
+    alta de CPU e o plano de energia Alto Desempenho.
+
+SAVE AUTOMATICO (PS2)
+  - O launcher salva o estado do jogo sozinho a cada 10 minutos (5, 15 ou desligado
+    na tela de configuracoes do jogo). O PCSX2 mostra "estado salvo" na tela.
+  - Se o jogo travar/fechar com erro (ou o PC desligar), na proxima vez que abrir o jogo
+    o launcher pergunta se quer continuar do save automatico.
+  - Usa o slot 10 de save state; o save anterior fica guardado como backup.
+  - Nao funciona no modo Hardcore das conquistas (la save state e proibido).
+  - PS3/PS4: os emuladores nao tem save state confiavel; use o save do proprio jogo
+    (no PS3 e no PS4 o save do jogo vai direto para o disco e nao se perde num crash).
+
+ABA CONQUISTAS (como no PS5)
+  - Aba "Conquistas" ao lado das abas dos consoles ("..." > Conquistas, Ctrl+6 ou RB no controle).
+  - Em cima: seu nivel de trofeus e o total de platinas, ouros, pratas e bronzes.
+  - A esquerda: os jogos com trofeus, com a porcentagem; a direita: os trofeus do jogo escolhido
+    (Todos / Conquistados / Nao conquistados), com a data e, no PS2, quantos jogadores tem.
+  - Trofeus ocultos aparecem com cadeado ate voce conquistar.
+  - PS2: vem da sua conta RetroAchievements (a mesma do PCSX2). Pontos viram tipo de trofeu
+    (25+ ouro, 10+ prata, o resto bronze) e "Mestre do jogo" e a platina (todas as conquistas).
+    A data so aparece para conquistas feitas depois de abrir a aba pela primeira vez.
+  - PS3 (RPCS3) e PS4 (shadPS4): lidos direto dos arquivos dos emuladores.
+  - "Contas e opcoes" abre o login do RetroAchievements e as opcoes abaixo.
+
+CONQUISTAS E TROFEUS (botao "Contas e opcoes" na aba Conquistas)
+  - PS2: conquistas do RetroAchievements.org (conta gratis). Entre com usuario e senha
+    na tela "Conquistas" (a senha nao fica salva, so o acesso). Aparecem na tela ao
+    desbloquear; a lista do jogo fica no menu de pausa (Select + Start).
+    Modo Hardcore: conta no ranking do site, mas desativa save state, camera lenta e trapacas.
+    Nem todo jogo de PS2 tem conquistas no site.
+  - PS3: trofeus nativos do RPCS3, inclusive platina. Lista: botao "Ver trofeus (RPCS3)".
+  - PS4: shadPS4 precisa da chave de trofeus do seu proprio PS4.
+
+VOLUME DURANTE O JOGO
+  - Tecla  -  diminui 10%   |   tecla  +  aumenta 10%  (teclado numerico ou ao lado do Backspace).
+  - Segurar a tecla vai mudando sem parar. Aparece um aviso "Volume 70%" no topo da tela.
+  - Muda so o som do jogo (nao o volume do Windows) e fica salvo para a proxima vez.
+  - Desmarque "Mostrar esta tela antes de cada jogo" para ir direto ao jogo.
+    O botao "Configurar jogo" abre a tela quando quiser.
+
+O launcher detecta sozinho:
+  - ISO de PS2 x ISO de PS3 (le o cabecalho do disco)
+  - .chd .cso .zso .gz .bin .mdf .img -> PS2
+  - .pkg de PS3 -> instala no RPCS3 na primeira vez, depois abre direto
+  - pasta com PS3_GAME\USRDIR\EBOOT.BIN -> PS3 (nome lido do PARAM.SFO)
+  - pasta com eboot.bin + sce_sys (dump de PS4, ex: CUSA03173) -> PS4
+
+PS4
+  - Os jogos de PS4 abrem no shadPS4 mais novo (0.20), que roda bem mais jogos
+    (God of War III incluso; a primeira abertura demora alguns minutos preparando os graficos).
+  - PKG de PS4: "Adicionar" > "Instalar PKG de PS4..." (ou adicione o .pkg na lista e clique em
+    JOGAR). O launcher instala sozinho, sem abrir emulador, com barra de progresso:
+      * jogo: vai para a pasta de jogos de PS4 (escolhida na primeira vez) como CUSAxxxxx
+        e entra na biblioteca;
+      * update (ex: 1.09): vai para CUSAxxxxx-UPDATE ao lado do jogo; o shadPS4 usa sozinho.
+    Precisa de espaco livre do tamanho do PKG. DLC ainda nao e instalada pelo launcher.
+    Se o PKG estiver aberto em um programa de torrent (compartilhando), pause o torrent antes.
+    So instala PKG desbloqueado (fPKG); PKG oficial da PSN e criptografado e nao funciona.
+    Jogo que ja esta instalado (pasta com eboot.bin): na mesma janela escolha o eboot.bin,
+    ou use "Adicionar" > "Adicionar pasta". Ele entra na biblioteca sem instalar de novo.
+    Se der erro, a mensagem diz o motivo (PKG corrompido, criptografado, pasta protegida,
+    antivirus bloqueando o PkgTool...) e fica no Diagnostico para pedir ajuda.
+    Usa o PkgTool (LibOrbisPkg, codigo aberto), que ja vem no pacote.
+  - Precisa de CPU com AVX e placa de video com Vulkan 1.3.
+  - Use o seu proprio dump do jogo (pasta com eboot.bin, sce_module e sce_sys).
+
+SE O JOGO FECHAR COM ERRO
+  - O launcher mostra a tela "O jogo fechou" com as causas mais comuns daquele console,
+    as ultimas mensagens de erro do emulador e o tipo de erro (ex: falha de memoria).
+  - "Tentar com configuracoes seguras": troca as opcoes do jogo pelas mais compativeis
+    (resolucao normal, sem FSR / modo PS4 Pro etc.) e abre de novo. Da para mudar em Configurar.
+  - "Abrir log" mostra o log completo; "Compatibilidade" abre a lista do RPCS3 / shadPS4 para o jogo.
+  - Tambem aparece se o jogo fechar menos de 12 segundos depois de abrir.
+
+DICAS DE FPS
+  - Comece em "Desempenho maximo" e va subindo a resolucao enquanto o FPS aguentar.
+  - PS2: "-1" na velocidade da CPU do PS2 da bastante FPS; "-2" so se precisar (pode bugar).
+  - PS3: SPU "Mega" ajuda em quase todos os jogos; consulte wiki.rpcs3.net para o seu jogo.
+  - PS3 / PS4: a primeira vez de cada jogo compila shaders; o FPS melhora a partir da 2a vez.
+
+OBS
+  - PKG da PSN de PS3 normalmente precisa do arquivo de licenca .rap em dev_hdd0\home\00000001\exdata
+  - Use apenas jogos e BIOS/firmware que voce possui.

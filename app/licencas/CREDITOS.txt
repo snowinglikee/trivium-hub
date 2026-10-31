@@ -1,0 +1,60 @@
+Trivium Hub - creditos e licencas
+==================================
+
+O Trivium Hub e so o launcher: a emulacao e feita pelos programas abaixo, todos de codigo aberto.
+Eles vao junto no pacote sem nenhuma modificacao, como foram publicados pelos autores.
+O codigo-fonte de cada um esta no endereco indicado (o mesmo de onde o launcher baixa as
+atualizacoes). Os textos das licencas estao nesta pasta (GPL-2.0.txt e GPL-3.0.txt).
+
+EMULADORES (pasta app\emuladores)
+
+  PCSX2 - emulador de PS2
+    Licenca: GPL-3.0 (GPL-3.0.txt). Bibliotecas de terceiros: emuladores\pcsx2\docs\ThirdPartyLicenses.html
+    Codigo-fonte: https://github.com/PCSX2/pcsx2
+
+  RPCS3 - emulador de PS3
+    Licenca: GPL-2.0 (GPL-2.0.txt)
+    Codigo-fonte: https://github.com/RPCS3/rpcs3  (versoes para Windows: https://github.com/RPCS3/rpcs3-binaries-win)
+
+  shadPS4 - emulador de PS4
+    Licenca: GPL-2.0 (GPL-2.0.txt)
+    Codigo-fonte: https://github.com/shadps4-emu/shadPS4
+
+  shadPS4 eltutz - versao nao oficial do shadPS4 feita por cuesta4 (God of War III e outros)
+    Licenca: GPL-2.0 (GPL-2.0.txt)
+    Codigo-fonte: https://github.com/cuesta4/shadPS4/tree/eltutz
+    Nao e uma versao oficial: problemas com ela nao devem ser relatados aos autores do shadPS4.
+
+FERRAMENTAS
+
+  PkgTool (LibOrbisPkg) - instala PKG de PS4 direto pelo launcher, de maxton
+    Licenca: LGPL-3.0 (emuladores\pkgtool\LICENSE.txt)
+    Codigo-fonte: https://github.com/maxton/LibOrbisPkg
+
+PATCHES DA COMUNIDADE (pasta app\patches-ps4 e patches embutidos no launcher)
+
+  Patches de PS4 do repositorio oficial do shadPS4: https://github.com/shadps4-emu/ps4_cheats
+  God of War III Remastered:
+    - "Texture Corruption Fix", "Skip Intro" e "Skip Any Video With X Button": cuesta4
+    - "Frame Rate Patch - 120 FPS": kvicken
+    Os mesmos patches usados pelo SpartanPort (https://github.com/FelipePrado0/SpartanPort).
+  Bloodborne: patches de Kyo, Lance McDonald, illusion, emoose e outros (arquivo oficial do shadPS4);
+    a escolha de quais ficam ligados segue o Bloodborne PC de Supermedo
+    (https://github.com/Supermedo/bloodborne_pc).
+
+SERVICOS
+
+  RetroAchievements (conquistas do PS2): https://retroachievements.org
+    O launcher so le os dados da sua propria conta, com o acesso que o PCSX2 ja usa.
+  Capas de PS2: https://github.com/xlenore/ps2-covers
+  Online do PS2 (opcional): servidores da comunidade PS2Online, https://ps2online.com
+    e PS Rewired, https://psrewired.com
+    Sem ligacao com a Sony. So sao usados se o jogador digitar o DNS deles em "Jogar online".
+  Listas de trofeus de PS4: https://psnine.com (baixadas no PC do jogador, uma vez por jogo)
+  Traducao automatica dos trofeus: MyMemory, https://mymemory.translated.net
+
+O QUE NAO VEM NO PACOTE
+
+  BIOS do PS2, firmware do PS3, chaves e jogos. Use apenas BIOS, firmware e jogos que voce possui.
+  PlayStation, PS2, PS3 e PS4 sao marcas da Sony Interactive Entertainment. O Trivium Hub nao tem
+  ligacao com a Sony nem com os autores dos emuladores.
